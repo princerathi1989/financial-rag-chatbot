@@ -1,0 +1,512 @@
+# Multi-Agent Chatbot - Git Ignore Rules
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+#  Usually these files are written by a python script from a template
+#  before PyInstaller builds the exe, so as to inject date/other infos into it.
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+cover/
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Flask stuff:
+instance/
+.webassets-cache
+
+# Scrapy stuff:
+.scrapy
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+.pybuilder/
+target/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+#   For a library or package, you might want to ignore these files since the code is
+#   intended to run in multiple environments; otherwise, check them in:
+# .python-version
+
+# pipenv
+#   According to pypa/pipenv#598, it is recommended to include Pipfile.lock in version control.
+#   However, in case of collaboration, if having platform-specific dependencies or dependencies
+#   having no cross-platform support, pipenv may install dependencies that don't work, or not
+#   install all needed dependencies.
+#Pipfile.lock
+
+# poetry
+#   Similar to Pipfile.lock, it is generally recommended to include poetry.lock in version control.
+#   This is especially recommended for binary packages to ensure reproducibility, and is more
+#   commonly ignored for libraries.
+#   https://python-poetry.org/docs/basic-usage/#commit-your-poetrylock-file-to-version-control
+#poetry.lock
+
+# pdm
+#   Similar to Pipfile.lock, it is generally recommended to include pdm.lock in version control.
+#pdm.lock
+#   pdm stores project-wide configurations in .pdm.toml, but it is recommended to not include it
+#   in version control.
+#   https://pdm.fming.dev/#use-with-ide
+.pdm.toml
+
+# PEP 582; used by e.g. github.com/David-OConnor/pyflow and github.com/pdm-project/pdm
+__pypackages__/
+
+# Celery stuff
+celerybeat-schedule
+celerybeat.pid
+
+# SageMath parsed files
+*.sage.py
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# pytype static type analyzer
+.pytype/
+
+# Cython debug symbols
+cython_debug/
+
+# PyCharm
+#  JetBrains specific template is maintained in a separate JetBrains.gitignore that can
+#  be added to the global gitignore or merged into this project gitignore.  For a PyCharm
+#  project, it is recommended to include the following files:
+#  .idea/
+#  *.iml
+#  *.ipr
+#  *.iws
+
+# Project-specific ignores
+# Storage directories
+storage/
+logs/
+temp/
+uploads/
+
+# ChromaDB data
+chroma_db/
+*.db
+*.sqlite
+
+# Environment files
+.env
+.env.local
+.env.development
+.env.production
+.env.testing
+
+# IDE files
+.vscode/
+.idea/
+.cursor/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Docker
+.dockerignore
+docker-compose.override.yml
+
+# Kubernetes
+*.kubeconfig
+
+# Monitoring data
+prometheus_data/
+grafana_data/
+
+# Backup files
+*.bak
+*.backup
+*.old
+
+# Test files
+test_*.py
+*_test.py
+tests/temp/
+test_data/
+
+# Documentation builds
+docs/_build/
+docs/build/
+
+# Jupyter notebooks
+*.ipynb
+
+# Model files
+*.pkl
+*.joblib
+*.h5
+*.hdf5
+*.model
+
+# Vector store files
+*.faiss
+*.index
+
+# Temporary files
+*.tmp
+*.temp
+temp/
+tmp/
+
+# Log files
+*.log
+logs/
+log/
+
+# Coverage reports
+.coverage
+coverage.xml
+htmlcov/
+
+# Pytest
+.pytest_cache/
+
+# MyPy
+.mypy_cache/
+
+# Black
+.black
+
+# Flake8
+.flake8
+
+# Isort
+.isort.cfg
+
+# Pre-commit
+.pre-commit-config.yaml
+
+# Tox
+.tox/
+
+# Nox
+.nox/
+
+# Virtual environments
+venv/
+env/
+ENV/
+.env/
+
+# Package files
+*.egg-info/
+dist/
+build/
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Cython
+*.c
+*.cpp
+*.h
+*.hpp
+
+# Fortran
+*.f90
+*.f95
+*.f03
+*.f08
+
+# R
+*.R
+*.r
+*.RData
+*.rda
+*.rds
+
+# Julia
+*.jl
+
+# MATLAB
+*.mat
+*.m
+
+# Octave
+*.oct
+
+# LaTeX
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.synctex.gz
+*.toc
+
+# Markdown
+*.md.bak
+
+# YAML
+*.yml.bak
+*.yaml.bak
+
+# JSON
+*.json.bak
+
+# CSV
+*.csv.bak
+
+# Excel
+*.xlsx.bak
+*.xls.bak
+
+# PowerPoint
+*.pptx.bak
+*.ppt.bak
+
+# Word
+*.docx.bak
+*.doc.bak
+
+# PDF
+*.pdf.bak
+
+# Images
+*.jpg.bak
+*.jpeg.bak
+*.png.bak
+*.gif.bak
+*.bmp.bak
+*.tiff.bak
+*.svg.bak
+
+# Audio
+*.mp3.bak
+*.wav.bak
+*.flac.bak
+*.aac.bak
+
+# Video
+*.mp4.bak
+*.avi.bak
+*.mov.bak
+*.wmv.bak
+*.flv.bak
+*.webm.bak
+
+# Archives
+*.zip.bak
+*.tar.bak
+*.tar.gz.bak
+*.rar.bak
+*.7z.bak
+
+# Database files
+*.db.bak
+*.sqlite.bak
+*.sql.bak
+
+# Configuration backups
+*.conf.bak
+*.config.bak
+*.ini.bak
+*.cfg.bak
+
+# Script backups
+*.sh.bak
+*.bat.bak
+*.cmd.bak
+*.ps1.bak
+
+# Makefile backups
+Makefile.bak
+makefile.bak
+
+# Docker backups
+Dockerfile.bak
+docker-compose.yml.bak
+.dockerignore.bak
+
+# Kubernetes backups
+*.yaml.bak
+*.yml.bak
+kustomization.yaml.bak
+
+# Terraform backups
+*.tf.bak
+*.tfvars.bak
+*.tfstate.bak
+*.tfstate.backup
+
+# Ansible backups
+*.yml.bak
+*.yaml.bak
+inventory.bak
+hosts.bak
+
+# CI/CD backups
+.github/workflows/*.yml.bak
+.gitlab-ci.yml.bak
+Jenkinsfile.bak
+azure-pipelines.yml.bak
+
+# Package manager backups
+package.json.bak
+package-lock.json.bak
+yarn.lock.bak
+requirements.txt.bak
+Pipfile.bak
+Pipfile.lock.bak
+poetry.lock.bak
+pyproject.toml.bak
+setup.py.bak
+setup.cfg.bak
+MANIFEST.in.bak
+
+# Documentation backups
+README.md.bak
+CHANGELOG.md.bak
+LICENSE.bak
+CONTRIBUTING.md.bak
+CODE_OF_CONDUCT.md.bak
+SECURITY.md.bak
+
+# API documentation backups
+openapi.json.bak
+swagger.json.bak
+*.raml.bak
+*.yaml.bak
+*.yml.bak
+
+# Test documentation backups
+test_*.md.bak
+*_test.md.bak
+tests/README.md.bak
+
+# Deployment documentation backups
+deploy/*.md.bak
+deployment/*.md.bak
+docs/deployment/*.md.bak
+
+# Monitoring documentation backups
+monitoring/*.md.bak
+docs/monitoring/*.md.bak
+
+# Architecture documentation backups
+docs/architecture/*.md.bak
+docs/design/*.md.bak
+
+# User documentation backups
+docs/user/*.md.bak
+docs/guide/*.md.bak
+docs/tutorial/*.md.bak
+
+# Developer documentation backups
+docs/developer/*.md.bak
+docs/api/*.md.bak
+docs/contributing/*.md.bak
+
+# Security documentation backups
+docs/security/*.md.bak
+SECURITY.md.bak
+docs/SECURITY.md.bak
+
+# Performance documentation backups
+docs/performance/*.md.bak
+docs/benchmarks/*.md.bak
+
+# Troubleshooting documentation backups
+docs/troubleshooting/*.md.bak
+docs/faq/*.md.bak
+docs/support/*.md.bak
