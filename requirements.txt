@@ -1,0 +1,32 @@
+# Core dependencies
+fastapi>=0.104.0
+uvicorn>=0.24.0
+pydantic>=2.5.0
+python-multipart>=0.0.6
+
+# Document processing
+PyPDF2==3.0.1
+
+# AI/ML libraries - OpenAI and basic LangChain
+openai>=1.10.0
+langchain>=0.3.0
+langchain-openai>=0.3.0
+langsmith>=0.0.77
+tiktoken>=0.5.0
+
+# Cloud Vector Store - Pinecone
+pinecone-client>=3.0.0
+
+# Utilities
+python-dotenv>=1.0.0
+loguru>=0.7.2
+pydantic-settings>=2.1.0
+httpx>=0.25.0
+
+# UI Framework
+streamlit==1.28.1
+streamlit-chat==0.1.1
+
+# Build tools
+setuptools>=65.0.0
+wheel>=0.38.0

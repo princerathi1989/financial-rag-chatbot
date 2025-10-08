@@ -1,0 +1,25 @@
+# Docker Compose for Financial Multi-Agent Chatbot
+version: '3.8'
+
+services:
+  # Main application
+  chatbot:
+    build: .
+    ports:
+      - "${API_PORT:-8000}:8000"
+    env_file:
+      - .env
+    environment:
+      # Override specific production settings
+      - ENVIRONMENT=production
+      - DEBUG=false
+      - API_HOST=0.0.0.0
+      - API_PORT=8000
+    volumes:
+      - ./backend/app/storage:/app/backend/app/storage
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
